@@ -16,4 +16,12 @@ public class GamesService {
     public List<Game> getGames() {
         return repository.findAll();
     }
+
+    public Game addGame(Game game) {
+        return repository.save(game);
+    }
+
+    public void deleteGame(String id) {
+        repository.deleteById(id);
+    }
 }
