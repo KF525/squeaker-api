@@ -11,11 +11,13 @@
     <groupId>com.squeaker.games</groupId>
     <artifactId>squeaker-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>squeaker-api</name>
-    <description>REST API</description>
+    <name>Squeaker Games REST API</name>
+    <description>RESTful API access to Squeaker Games Catalog</description>
 
     <properties>
         <java.version>11</java.version>
+        <elasticsearch.version>6.8.6</elasticsearch.version>
+        <elasticsearch>${elasticsearch.version}</elasticsearch>
     </properties>
 
     <dependencies>
